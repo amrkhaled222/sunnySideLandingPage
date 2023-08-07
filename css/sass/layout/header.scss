@@ -1,7 +1,7 @@
 @use "../global-rule/_global-rule.scss" as *;
 header {
 	@extend %background;
-	background-image: url(../../../images/desktop/image-header.jpg);
+	background-image: url(../images/desktop/image-header.jpg);
 	background-size: cover;
 
 	.active {
@@ -83,7 +83,7 @@ header {
 }
 @media (min-width: 375px) and (max-width: 800px) {
 	header {
-		background-image: url(../../../images/mobile/image-header.jpg);
+		background-image: url(../images/mobile/image-header.jpg);
 
 		.header-container {
 			height: 583px;
