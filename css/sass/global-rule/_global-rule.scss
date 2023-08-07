@@ -1,0 +1,26 @@
+/** @format */
+* {
+	box-sizing: border-box;
+	font-size: 18px;
+}
+%background {
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+%remove_list_style {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+$Barlow_600: "Barlow";
+$Fraunces_700_900: "Fraunces";
+$SoftRed: hsl(7, 99%, 70%);
+$Yellow: hsl(51, 100%, 49%);
+$DarkDesaturatedCyan: hsl(167, 40%, 24%);
+$DarkBlue: hsl(198, 62%, 26%);
+$DarkModeratdCyan: hsl(168, 34%, 41%);
+$Grayishblue: hsl(210, 4%, 67%);
+$Darkgrayishblue: hsl(232, 10%, 55%);
+$Verydarkdesaturatedblue: hsl(212, 27%, 19%);
+$footerlogoColor: #2c7566;

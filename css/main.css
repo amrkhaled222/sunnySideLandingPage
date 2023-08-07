@@ -1,0 +1,558 @@
+/** @format */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+}
+
+header, section .parentContainer .cardContainer .transformImg, section .parentContainer .cardContainer .standOutImg, section .parentContainer .twoGraph div, section .footerImage .picContainer div {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+footer ul, header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section .parentContainer {
+  max-width: 1440px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section .parentContainer .cardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  width: 100%;
+}
+section .parentContainer .cardContainer .transformImg {
+  background-image: url(../../../images/desktop/image-transform.jpg);
+  background-size: cover;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+section .parentContainer .cardContainer .standOutImg {
+  background-image: url(../../../images/desktop/image-stand-out.jpg);
+  background-size: cover;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+section .parentContainer .cardContainer .textBox {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 6rem 6rem 6rem 9rem;
+}
+section .parentContainer .cardContainer .textBox h2 {
+  font-family: "Fraunces";
+  font-size: 40px;
+  width: 95%;
+  font-weight: 900;
+  color: hsl(212, 27%, 19%);
+}
+section .parentContainer .cardContainer .textBox p {
+  color: #808397;
+  font-family: "Barlow";
+  line-height: 1.6;
+}
+section .parentContainer .cardContainer .textBox a {
+  font-size: 15px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  text-transform: uppercase;
+}
+section .parentContainer .cardContainer .textBox:first-of-type a {
+  -webkit-text-decoration: underline yellow;
+          text-decoration: underline yellow;
+}
+section .parentContainer .cardContainer .textBox:last-of-type a {
+  -webkit-text-decoration: underline hsl(7, 99%, 70%);
+          text-decoration: underline hsl(7, 99%, 70%);
+}
+section .parentContainer .twoGraph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+section .parentContainer .twoGraph .graphicDesign {
+  background-image: url(../../../images/desktop/image-graphic-design.jpg);
+  color: #24554a;
+}
+section .parentContainer .twoGraph .Photography {
+  background-image: url(../../../images/desktop/image-photography.jpg);
+  color: hsl(198, 62%, 26%);
+}
+section .parentContainer .twoGraph div {
+  background-size: cover;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 5rem 5rem 2rem;
+}
+section .parentContainer .twoGraph div h2 {
+  font-size: 28px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  text-transform: capitalize;
+}
+section .parentContainer .twoGraph div p {
+  font-family: "Barlow";
+  font-size: 16px;
+  letter-spacing: -0.11px;
+  text-align: center;
+  color: #3e7467;
+  padding: 0 6rem;
+}
+section .personCv {
+  width: 100%;
+  max-width: 1440px;
+  padding: 6rem;
+}
+section .personCv > h2 {
+  text-align: center;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #a7aaad;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+section .personCv .personChild {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+section .personCv .personChild > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+section .personCv .personChild > div p {
+  font-family: "Barlow";
+  text-align: center;
+  width: 90%;
+  letter-spacing: -0.13px;
+  color: #5b636d;
+  line-height: 2rem;
+}
+section .personCv .personChild > div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section .personCv .personChild > div div h2 {
+  color: #24303e;
+  font-family: "Fraunces";
+  font-weight: 900;
+  letter-spacing: -0.13px;
+  text-align: center;
+}
+section .personCv .personChild > div div span {
+  color: #a7aaad;
+  font-family: "Barlow";
+  font-size: 14px;
+}
+section .personCv .personChild img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+section .footerImage {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 447px;
+  max-width: 1440px;
+  min-width: 375px;
+}
+section .footerImage .picContainer {
+  height: 100%;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section .footerImage .picContainer div {
+  height: 100%;
+  background-size: cover;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+section .footerImage .milkPhoto {
+  background-image: url(../../../images/desktop/image-gallery-milkbottles.jpg);
+}
+section .footerImage .conePhoto {
+  background-image: url(../../../images/desktop/image-gallery-cone.jpg);
+}
+section .footerImage .sugarPhoto {
+  background-image: url(../../../images/desktop/image-gallery-sugarcubes.jpg);
+}
+section .footerImage .orangePhoto {
+  background-image: url(../../../images/desktop/image-gallery-orange.jpg);
+}
+
+@media (max-width: 1200px) and (min-width: 800px) {
+  section .textBox {
+    padding: 6rem 1rem 6rem 2rem !important;
+  }
+  section .twoGraph p {
+    padding: 0 1rem !important;
+  }
+}
+@media (max-width: 800px) and (min-width: 375px) {
+  section .parentContainer .cardContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 750px !important;
+    min-width: 375px;
+  }
+  section .parentContainer .cardContainer .textBox {
+    padding: 60px 1rem !important;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    text-align: center;
+  }
+  section .parentContainer .cardContainer .textBox h2 {
+    font-size: 32px !important;
+    width: 100% !important;
+  }
+  section .parentContainer .cardContainer .standOutImg {
+    background-image: url(../../../images/mobile/image-stand-out.jpg);
+  }
+  section .parentContainer .cardContainer .transformImg {
+    background-image: url(../../../images/mobile/image-transform.jpg);
+  }
+  section .parentContainer .cardContainer:first-of-type {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  section .parentContainer .twoGraph {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 1200px !important;
+  }
+  section .parentContainer .twoGraph p {
+    padding: 0 1rem !important;
+  }
+  section .parentContainer .twoGraph .Photography {
+    background-image: url(../../../images/mobile/image-photography.jpg);
+  }
+  section .parentContainer .twoGraph .graphicDesign {
+    background-image: url(../../../images/mobile/image-graphic-design.jpg);
+  }
+  section .parentContainer .twoGraph div {
+    padding: 5rem 1rem 2rem !important;
+  }
+  section .parentContainer .personCv {
+    padding: 3rem 5px 5rem;
+  }
+  section .parentContainer .personCv > h2 {
+    font-size: 16px;
+    margin-bottom: 65px;
+  }
+  section .parentContainer .personCv .personChild {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 60px;
+  }
+  section .parentContainer .personCv .personChild > div h2 {
+    margin-bottom: 12px;
+  }
+  section .parentContainer .footerImage {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+header {
+  background-image: url(../../../images/desktop/image-header.jpg);
+  background-size: cover;
+}
+header .active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header .burgericoncolor {
+  color: rgba(255, 255, 255, 0.4941176471);
+}
+header .header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 800px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 80px;
+  padding: 30px;
+  width: 100%;
+  min-width: 375px;
+  max-width: 1440px;
+  margin: auto;
+}
+header .header-container > svg:last-of-type {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+header nav {
+  max-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav span {
+  display: none;
+  color: white;
+}
+header nav > svg {
+  width: 170px;
+}
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+header nav ul li {
+  color: white;
+  border-radius: 60px;
+  text-align: center;
+  font-family: "Barlow";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 140px;
+  height: 56px;
+  cursor: pointer;
+}
+header nav ul li:last-of-type {
+  background-color: white;
+  color: hsl(198, 62%, 26%);
+  width: 140px;
+  height: 56px;
+  font-family: "Fraunces";
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+header nav ul li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+header h1 {
+  font-size: 56px;
+  color: white;
+  text-align: center;
+  letter-spacing: 8.7px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media (min-width: 375px) and (max-width: 800px) {
+  header {
+    background-image: url(../../../images/mobile/image-header.jpg);
+  }
+  header .header-container {
+    height: 583px;
+    gap: 60px;
+    position: relative;
+  }
+  header nav {
+    position: relative;
+  }
+  header nav span {
+    display: block;
+    width: 24px;
+    height: 18px;
+    cursor: pointer;
+    color: white;
+  }
+  header nav ul {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    background-color: white;
+    gap: 0;
+    padding: 30px;
+    width: 100%;
+    min-width: 329px;
+    max-width: 500px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 55px;
+    right: 0;
+  }
+  header nav ul::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(62, 191, 255);
+    height: 15px;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  header nav ul::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 16px solid white;
+    border-left: 21px solid transparent;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+  header nav ul li {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+  header nav ul li:hover {
+    color: inherit;
+  }
+  header nav ul li:last-of-type {
+    margin-top: 10px;
+    background-color: #fbd600;
+    font-weight: 900;
+    color: #24303e;
+  }
+  header h1 {
+    font-size: 40px;
+    letter-spacing: 8.2px;
+  }
+}
+@media (min-width: 620px) and (max-width: 800px) {
+  .header-container {
+    gap: 112px !important;
+  }
+}
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #90d4c6;
+  padding: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
+  position: relative;
+}
+footer ul {
+  font-family: "Barlow";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  color: #2c7566;
+  gap: 25px;
+}
+footer ul:first-of-type {
+  gap: 50px;
+}
+footer ul li {
+  cursor: pointer;
+}
+footer ul li:hover {
+  color: white;
+}
+footer .attribution {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  width: 100%;
+}
+footer .attribution a {
+  font-size: 11px !important;
+  color: #2c7566;
+}
+
+/** @format */
