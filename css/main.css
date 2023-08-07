@@ -36,13 +36,13 @@ section .parentContainer .cardContainer {
   width: 100%;
 }
 section .parentContainer .cardContainer .transformImg {
-  background-image: url(../../../images/desktop/image-transform.jpg);
+  background-image: url(../images/desktop/image-transform.jpg);
   background-size: cover;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
 }
 section .parentContainer .cardContainer .standOutImg {
-  background-image: url(../../../images/desktop/image-stand-out.jpg);
+  background-image: url(../images/desktop/image-stand-out.jpg);
   background-size: cover;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
@@ -86,11 +86,11 @@ section .parentContainer .twoGraph {
   height: 600px;
 }
 section .parentContainer .twoGraph .graphicDesign {
-  background-image: url(../../../images/desktop/image-graphic-design.jpg);
+  background-image: url(../images/desktop/image-graphic-design.jpg);
   color: #24554a;
 }
 section .parentContainer .twoGraph .Photography {
-  background-image: url(../../../images/desktop/image-photography.jpg);
+  background-image: url(../images/desktop/image-photography.jpg);
   color: hsl(198, 62%, 26%);
 }
 section .parentContainer .twoGraph div {
@@ -227,16 +227,16 @@ section .footerImage .picContainer div {
       flex-basis: 50%;
 }
 section .footerImage .milkPhoto {
-  background-image: url(../../../images/desktop/image-gallery-milkbottles.jpg);
+  background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
 }
 section .footerImage .conePhoto {
-  background-image: url(../../../images/desktop/image-gallery-cone.jpg);
+  background-image: url(../images/desktop/image-gallery-cone.jpg);
 }
 section .footerImage .sugarPhoto {
-  background-image: url(../../../images/desktop/image-gallery-sugarcubes.jpg);
+  background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
 }
 section .footerImage .orangePhoto {
-  background-image: url(../../../images/desktop/image-gallery-orange.jpg);
+  background-image: url(../images/desktop/image-gallery-orange.jpg);
 }
 
 @media (max-width: 1200px) and (min-width: 800px) {
@@ -267,10 +267,10 @@ section .footerImage .orangePhoto {
     width: 100% !important;
   }
   section .parentContainer .cardContainer .standOutImg {
-    background-image: url(../../../images/mobile/image-stand-out.jpg);
+    background-image: url(../images/mobile/image-stand-out.jpg);
   }
   section .parentContainer .cardContainer .transformImg {
-    background-image: url(../../../images/mobile/image-transform.jpg);
+    background-image: url(../images/mobile/image-transform.jpg);
   }
   section .parentContainer .cardContainer:first-of-type {
     -webkit-box-orient: vertical;
@@ -289,10 +289,10 @@ section .footerImage .orangePhoto {
     padding: 0 1rem !important;
   }
   section .parentContainer .twoGraph .Photography {
-    background-image: url(../../../images/mobile/image-photography.jpg);
+    background-image: url(../images/mobile/image-photography.jpg);
   }
   section .parentContainer .twoGraph .graphicDesign {
-    background-image: url(../../../images/mobile/image-graphic-design.jpg);
+    background-image: url(../images/mobile/image-graphic-design.jpg);
   }
   section .parentContainer .twoGraph div {
     padding: 5rem 1rem 2rem !important;
@@ -322,7 +322,7 @@ section .footerImage .orangePhoto {
   }
 }
 header {
-  background-image: url(../../../images/desktop/image-header.jpg);
+  background-image: url(../images/desktop/image-header.jpg);
   background-size: cover;
 }
 header .active {
@@ -423,7 +423,7 @@ header h1 {
 
 @media (min-width: 375px) and (max-width: 800px) {
   header {
-    background-image: url(../../../images/mobile/image-header.jpg);
+    background-image: url(../images/mobile/image-header.jpg);
   }
   header .header-container {
     height: 583px;
